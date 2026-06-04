@@ -1,0 +1,61 @@
+{
+    "chip_type": "k230",
+    "inference_width": 640,
+    "inference_height": 640,
+    "confidence_threshold": 0.25,
+    "nms_threshold": 0.6,
+    "nncase_version": "2.9.0",
+    "model_type": "AnchorBaseDet",
+    "img_size": [
+        640,
+        640
+    ],
+    "anchors": [
+        [
+            228,
+            233,
+            332,
+            236,
+            207,
+            459
+        ],
+        [
+            501,
+            213,
+            377,
+            330,
+            484,
+            307
+        ],
+        [
+            458,
+            374,
+            340,
+            513,
+            554,
+            354
+        ]
+    ],
+    "mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "categories": [
+        "Apple",
+        "Banana",
+        "Cola",
+        "MALAwangzi",
+        "Pineapple",
+        "Strawberries",
+        "watermelon"
+    ],
+    "nms_option": false,
+    "kmodel_path": "best_AnchorBaseDet_can2_10_s_20250325170947.kmodel",
+    "num_classes": 7
+}
