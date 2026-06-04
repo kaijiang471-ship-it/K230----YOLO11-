@@ -35,7 +35,7 @@
 
 | 可乐 (Cola) | 麻辣王子 (MALAwangzi) | 苹果 (Apple) |
 |:---:|:---:|:---:|
-| <img src="docs/images/detection_cola.jpg" width="250"> | <img src="docs/images/detection_malawangzi.jpg" width="250"> | <img src="docs/images/detection_apple.jpg" width="250"> |
+| <img src="docs/images/detection_cola.jpg" width="250"> | <img src="docs/images/detection_malawangzi.jpg" width="250"> | <img src="docs/images/apple.jpg" width="250"> |
 
 ---
 
@@ -151,7 +151,7 @@ K230----YOLO11-/
 │   ├── detection_cola.jpg                 # 可乐检测结果
 │   ├── detection_cola2.jpg                # 可乐检测结果 2
 │   ├── detection_malawangzi.jpg           # 麻辣王子检测结果
-│   └── detection_apple.jpg                # 苹果检测结果
+│   └── apple.jpg                          # 苹果检测结果
 ├── 商品检测2.0/
 │   ├── shangpinjiance/                    # 模型与推理脚本
 │   │   ├── deploy_config.json             # 模型配置文件
